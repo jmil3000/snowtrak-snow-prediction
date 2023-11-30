@@ -4,4 +4,4 @@ Snowtrak is a snow and pow prediction application that pulls in current data and
 
 The model is currently a little iffy, occasionally giving negative snow values for example. Until fixed those days can be considered low or no snow at all.
 
-All this code is 100% original, including the LSTM model and even the dataset. I built the dataset myself (currently small but growing, thus the iffy LSTM model), and trained the model on that data set using different preprocessing techniques (inlcluding Standard Scaler, see .pkl file) and sequencing for the LSTM of course.
+All this code is 100% original, including the LSTM model and even the dataset. I built the dataset myself (currently small but growing, thus the iffy LSTM model), and trained the model on that data set using TensorFlow and Keras. The dataset went through different preprocessing techniques (inlcluding Standard Scaler, see .pkl file) and sequencing for the LSTM of course.
