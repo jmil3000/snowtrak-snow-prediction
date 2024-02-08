@@ -58,7 +58,7 @@ inverse_predictions = scaler.inverse_transform(dummy_data)[:, features_to_normal
 import datetime
 today = datetime.date.today()
 days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-snowfall_threshold = 0.5
+snowfall_threshold = 0.4
 significant_snowfall_predicted = False
 for i, prediction in enumerate(inverse_predictions):
     prediction_date = today + datetime.timedelta(days=i)
